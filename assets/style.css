@@ -1,53 +1,44 @@
 body,html {
- width: 1080px;
- height: 760px;
- font-size: 12px;
-}
-
-
-
-#enviroment {
-  position: relative;
-  max-width: 80%;
-  height:auto;
+  height: 95vh;
+  width: 95vw;
   text-align: center;
 }
 
-#environment-banner {
-  position: absolute;
-  max-width: 40%;
-  min-width: 10%;
-  border: 5px solid white;
-  margin: auto;
-}
 
-#environment > img {
-  position: absolute;
+
+.environment-container {
+  position: relative;
+  background-color:lightgrey;
   max-width: 100%;
   max-height: 100%;
-  object-fit: contain;
-  opacity: 0.7;
-}
-
-
-#environment h3 {
-  margin: auto;
-  color: white;
-  font-size: 2rem;
-  text-align: center;
 }
 
 .triangle {
-  display: block;
+  display: inline-block;
+  /* background-color: darkblue; */
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 0px;
-  height: 0px;
-  border-bottom: 100px solid rgb(122, 209, 224);
-  border-left: 100px solid transparent;
+  border-bottom: 20% solid rgb(0, 139, 127);
+  border-left: 60% solid transparent;
   z-index: 10;
 }
+
+.triangle2 {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  border-bottom: 10% solid rgb(0, 128, 79, 0.75);
+  border-right: 50% solid transparent;
+}
+
+.environment-container img {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.7;
+  background-size: contain;
+}
+
 
 
 
